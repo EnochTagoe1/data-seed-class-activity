@@ -1,1 +1,44 @@
-{}
+{
+
+    
+        "products": [
+            {
+          "id": "P001",
+          "productName": "Laptop",
+          "categories": ["Electronics", "Computers"],
+          "details": {
+            "brand": "Acer",
+            "model": "Model123",
+            "specs": {
+              "processor": "Quad-core",
+              "memory": "8GB RAM",
+              "storage": "256GB SSD",
+              "display": "15.6-inch Full HD"
+            }
+          },
+          "price": 899.99,
+          "availability": true,
+          "rating": 4.5,
+          "specialOffer": "Free shipping on this item!"
+        },
+        {
+          "id": "P002",
+          "productName": "Smartphone",
+          "categories": ["Electronics", "Mobile Phones"],
+          "details": {
+            "brand": "HPBrand",
+            "model": "PhoneX",
+            "specs": {
+              "processor": "Octa-core",
+              "memory": "6GB RAM",
+              "storage": "128GB",
+              "display": "6.2-inch Super AMOLED"
+            }
+          },
+          "price": 499.99,
+          "availability": false,
+          "rating": 4.0,
+          "specialOffer": "10% off for a limited time!"
+        }
+      ]
+}
